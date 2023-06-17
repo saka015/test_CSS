@@ -1,0 +1,81 @@
+
+.main{
+    background-color: rgb(238, 238, 34);
+    height: 600px;
+    width: 600px;
+    margin: 5%;
+    box-sizing:content-box;
+}
+
+.ball
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(180, 180, 60);
+    border-radius: 100%;
+    display: flex;
+    /* transform: rotate(90deg); */
+}
+.eyes{
+    margin: 45px 60px;
+}
+.eyes{
+    background-color: gray;
+    width: 5px;
+    height: 5px;
+}
+
+h1,.ball
+{
+    color: white;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+
+.smile
+{
+    /* width: 5px;
+    height: 80px;
+    background-color: gray;
+    margin: 35px -20px;
+    border-radius: 50%;
+    border-radius: 50%/100px 100px 0 0; */
+    /* width:500px; height:100px;   */
+  /* border:solid 5px #000; */
+  /* border-color:#000 transparent transparent transparent; */
+  /* border-radius: 50%/100px 100px 0 0; */
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -15px;
+  width:130px;
+   height:100px;  
+   transform: rotate(90deg);
+  border:solid 5px gray;
+  border-color:gray transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+
+}
+
+.footer
+{
+    background-color: coral;
+    height: 100px;
+    width: 100%;
+    margin-top: 50%;
+}
+
+.tri
+{
+    width: 0; 
+  height: 0; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+    position: absolute;
+  margin-top: 300px;
+  margin-left: 250px;
+
+  
+  border-top: 20px solid rgb(238, 238, 34);
+
+}
